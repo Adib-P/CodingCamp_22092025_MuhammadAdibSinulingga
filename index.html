@@ -8,17 +8,25 @@
 </head>
 <body>
     <!-- Header -->
-    <img class="w-20 h-20 rounded-full object-cover border-4 border-gray-500" src="https://i.pravatar.cc/150?img#1" alt="My Photo Profile">
-    <div>
-        <button class="box-content border-4 item-right">
-            Click Me!
-        </button>
-    </div>
-    <hr/>
+    <header>
+        <div class="flex items-center justify-between p-4 bg-white shadow-md">
+            <img class="w-20 h-20 rounded-full object-cover border-2 border-gray-500" src="https://i.pravatar.cc/150?img#1" alt="My Photo Profile">
+            <nav class="flex border rounded-md divide-x shadow-sm max-w-123">
+                <a href="#home" class="px-6 py-2 hover:bg-gray-100 rounded-s-lg">Home</a>
+                <a href="#profile" class="px-6 py-2 hover:bg-gray-100">Our Profile</a>
+                <a href="#achievement" class="px-6 py-2 hover:bg-gray-100">Achievement</a>
+                <a href="#message" class="px-6 py-2 hover:bg-gray-100 rounded-s-lg">Message Us</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Main Content -->
-    <div class="p-4">
-        <h1 class="text-3xl font-bold mb-4">Welcome to My Website</h1>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="p-8 text-center">
+            <h1 class="text-4xl font-bold mb-4">Welcome to My Website</h1>
+            <p class="text-lg">This is the home section where you can introduce your website.</p>
+    </main>
     
     <!-- Footer -->
 </body>
