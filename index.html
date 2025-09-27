@@ -26,8 +26,57 @@
         <section id="home" class="p-8 text-center">
             <h1 class="text-4xl font-bold mb-4">Welcome to My Website</h1>
             <p class="text-lg">This is the home section where you can introduce your website.</p>
+        </section>
+
+        <hr/>
+
+        <!-- Profile Section -->
+        <section id="profile" class="p-8 bg-gray-100">
+            <h2 class="text-3xl font-bold mb-4 text-center">Our Profile</h2>
+            <p class="text-lg max-w-3xl mx-auto">This section contains information about our profile. You can add details about your background, mission, and values here.</p>
+        </section>
+
+        <hr/>
+
+        <!-- Achievement Section -->
+        <section id="achievement" class="p-8">
+            <h2 class="text-3xl font-bold mb-4 text-center">Achievement</h2>
+            <ul class="list-disc list-inside max-w-3xl mx-auto">
+                <li>Achievement 1: <img src=""> Description of achievement 1.</li>
+                <li>Achievement 2: <img src=""> Description of achievement 2.</li>
+                <li>Achievement 3: <img src=""> Description of achievement 3.</li>
+            </ul>
+        </section>
+        
+        <hr/>
+
+        <!-- Message Section -->
+        <section id="message" class="p-8 bg-gray-100">
+            <h2 class="text-3xl font-bold mb-4 text-center">Message Us</h2>
+            <form class="max-w-2xl mx-30 space-y-10">
+                <div>
+                    <label for="name" class="block text-lg font-medium">Name:</label>
+                    <input type="text" id="name" name="name" class="w-full p-2 border rounded-md" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-lg font-medium">Email:</label>
+                    <input type="email" id="email" name="email" class="w-full p-2 border rounded-md" required>
+                </div>
+                <div>
+                    <label for="message" class="block text-lg font-medium">Message:</label>
+                    <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded-md" required></textarea>
+                </div>
+                <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Send Message</button>
+            </form>
+        </section>
     </main>
     
     <!-- Footer -->
+     <footer>
+    <p class="text-center p-[10px] mb-5 bg-gray-300">Muhammad Adib Sinulingga Official Portofolio, All Copiright Will Be Reserved</p>
+     </footer>
+
+     <!-- Javascript Link -->
+      <script src="./js/script.js"></script>
 </body>
 </html>
